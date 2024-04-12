@@ -39,7 +39,7 @@ CREATE TABLE ProductInventory (
 );
 --rollback DROP TABLE ProductInventory;
 
---changeset sqlyaas:5 labels:0.0.2
+--changeset mate.acamemy:5 labels:0.0.2
 CREATE TABLE Users (
     ID INT AUTO_INCREMENT,
     FirstName VARCHAR(50),
@@ -49,7 +49,7 @@ CREATE TABLE Users (
 );
 --rollback DROP TABLE ProductInventory;
 
---changeset sqlyaas:6 labels:0.0.3
+--changeset mate.acamemy:6 labels:0.0.3
 CREATE INDEX idx_email ON Users (Email); 
 
 --rollback DROP TABLE ProductInventory;
