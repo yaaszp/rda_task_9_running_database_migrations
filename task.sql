@@ -50,6 +50,6 @@ CREATE TABLE Users (
 --rollback DROP TABLE ProductInventory;
 
 --changeset mate.acamemy:6 labels:0.0.3
-CREATE INDEX idx_email ON Users (Email); 
+CREATE INDEX Email ON Users (Email); 
 
 --rollback DROP TABLE ProductInventory;
